@@ -5,7 +5,7 @@
     {
         public const string OWNER = "OWNER";
         public const string ADMIN = "ADMIN";
-        public const string MANAGER = "ADMIN";
+        public const string MANAGER = "MANAGER";
         public const string USER = "USER";
 
         public const string OwnerAdmin = "OWNER,ADMIN";
