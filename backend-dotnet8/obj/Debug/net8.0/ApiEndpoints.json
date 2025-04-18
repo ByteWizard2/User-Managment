@@ -136,7 +136,7 @@
   {
     "ContainingType": "backend_dotnet8.Controllers.AuthController",
     "Method": "GetUserDetailsByUserName",
-    "RelativePath": "api/Auth/users/{serName}",
+    "RelativePath": "api/Auth/users/{userName}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -144,11 +144,6 @@
       {
         "Name": "userName",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "serName",
-        "Type": "",
         "IsRequired": true
       }
     ],

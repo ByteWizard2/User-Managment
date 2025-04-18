@@ -76,7 +76,7 @@ namespace backend_dotnet8.Core.Services
 
             ApplicationUser newUser = new ApplicationUser()
             {
-                FirstName = registerDto.UserName,
+                FirstName = registerDto.FirstName,
                 LastName = registerDto.LastName,
                 Email = registerDto.Email,
                 UserName = registerDto.UserName,

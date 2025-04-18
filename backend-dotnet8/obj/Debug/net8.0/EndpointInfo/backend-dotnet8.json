@@ -213,7 +213,7 @@
         }
       }
     },
-    "/api/Auth/users/{serName}": {
+    "/api/Auth/users/{userName}": {
       "get": {
         "tags": [
           "Auth"
@@ -221,14 +221,6 @@
         "parameters": [
           {
             "name": "userName",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "serName",
             "in": "path",
             "required": true,
             "schema": {
@@ -738,6 +730,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Please enter your token with this format:'Bearer  YOUR_TOKEN'",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

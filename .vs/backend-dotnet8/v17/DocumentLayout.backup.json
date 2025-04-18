@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|solutionrelative:backend-dotnet8\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|c:\\users\\user\\desktop\\usermanagmentfullstack\\backend-dotnet8\\backend-dotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|solutionrelative:backend-dotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|c:\\users\\user\\desktop\\usermanagmentfullstack\\backend-dotnet8\\backend-dotnet8\\core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|solutionrelative:backend-dotnet8\\core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|c:\\users\\user\\desktop\\usermanagmentfullstack\\backend-dotnet8\\backend-dotnet8\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|solutionrelative:backend-dotnet8\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|c:\\users\\user\\desktop\\usermanagmentfullstack\\backend-dotnet8\\backend-dotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4474277F-2F39-4720-B867-9E57FBA61D2B}|backend-dotnet8\\backend-dotnet8.csproj|solutionrelative:backend-dotnet8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,25 +51,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StaticUserRoles.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
-              "RelativeDocumentMoniker": "backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
-              "RelativeToolTip": "backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:39:57.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "backend-dotnet8\\Core\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Services\\AuthService.cs",
               "RelativeToolTip": "backend-dotnet8\\Core\\Services\\AuthService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwD0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T15:30:56.954Z",
               "EditorCaption": ""
@@ -82,14 +69,14 @@
               "RelativeDocumentMoniker": "backend-dotnet8\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Controllers\\AuthController.cs",
               "RelativeToolTip": "backend-dotnet8\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwGoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T14:47:34.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GeneralServiceResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Dtos\\General\\GeneralServiceResponseDto.cs",
               "RelativeDocumentMoniker": "backend-dotnet8\\Core\\Dtos\\General\\GeneralServiceResponseDto.cs",
@@ -97,12 +84,11 @@
               "RelativeToolTip": "backend-dotnet8\\Core\\Dtos\\General\\GeneralServiceResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:24:22.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:24:22.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "backend-dotnet8\\Controllers\\MessagesController.cs",
@@ -110,12 +96,11 @@
               "RelativeToolTip": "backend-dotnet8\\Controllers\\MessagesController.cs",
               "ViewState": "AgIAACIAAADg//////8vwC8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:15:32.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:15:32.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LogsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Controllers\\LogsController.cs",
               "RelativeDocumentMoniker": "backend-dotnet8\\Controllers\\LogsController.cs",
@@ -127,7 +112,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Program.cs",
+              "RelativeDocumentMoniker": "backend-dotnet8\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Program.cs",
+              "RelativeToolTip": "backend-dotnet8\\Program.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwHkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:55:35.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaticUserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
+              "RelativeDocumentMoniker": "backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
+              "RelativeToolTip": "backend-dotnet8\\Core\\Constants\\StaticUserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:39:57.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "backend-dotnet8\\Controllers\\TestController.cs",
@@ -136,18 +146,6 @@
               "ViewState": "AgIAAB0AAAAAAAAAAAAswC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T14:00:53.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Program.cs",
-              "RelativeDocumentMoniker": "backend-dotnet8\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\userManagmentFullStack\\backend-dotnet8\\backend-dotnet8\\Program.cs",
-              "RelativeToolTip": "backend-dotnet8\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwB8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T03:55:35.255Z"
             }
           ]
         }

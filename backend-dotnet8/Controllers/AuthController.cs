@@ -104,7 +104,7 @@ namespace backend_dotnet8.Controllers
 
         //Rout -> Get User by UserName
         [HttpGet]
-        [Route("users/{serName}")]
+        [Route("users/{userName}")]
         public async Task<ActionResult<UserInfoResult>> GetUserDetailsByUserName([FromRoute] string userName)
         {
             var user = await _authService.GetUserDetailsByUserNameAsync(userName);
