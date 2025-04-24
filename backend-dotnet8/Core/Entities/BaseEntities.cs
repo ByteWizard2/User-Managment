@@ -1,6 +1,18 @@
-﻿namespace backend_dotnet8.Core.Entities
+﻿//namespace backend_dotnet8.Core.Entities
+//{
+//    public class BaseEntities<TID>
+//    {
+//        public TID Id { get; set; }
+//        public DateTime CreatedAt { get; set; } = DateTime.Now;
+//        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+//        public bool IsActive { get; set; } = true;
+//        public bool IsDeleted { get; set; } = false;
+//    }
+//}
+
+namespace backend_dotnet8.Core.Entities
 {
-    public class BaseEntities<TID>
+    public class BaseEntity<TID>
     {
         public TID Id { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
@@ -9,3 +21,4 @@
         public bool IsDeleted { get; set; } = false;
     }
 }
+

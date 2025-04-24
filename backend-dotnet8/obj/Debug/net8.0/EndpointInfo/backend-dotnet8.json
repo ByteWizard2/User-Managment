@@ -579,7 +579,7 @@
             "type": "string",
             "nullable": true
           },
-          "recieverUserName": {
+          "receiverUserName": {
             "type": "string",
             "nullable": true
           },
@@ -734,7 +734,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "Please enter your token with this format:'Bearer  YOUR_TOKEN'",
+        "description": "Please enter your token with this format: ''Bearer YOUR_TOKEN''",
         "name": "Authorization",
         "in": "header"
       }

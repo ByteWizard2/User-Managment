@@ -1,4 +1,24 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿//using System.ComponentModel.DataAnnotations;
+
+//namespace backend_dotnet8.Core.Dtos.Auth
+//{
+//    public class RegisterDto
+//    {
+//        public string FirstName { get; set; }
+//        public string LastName { get; set; }
+
+//        [Required(ErrorMessage = "Username is required.")]
+//        public string UserName { get; set; }
+//        public string Email { get; set; }
+
+//        [Required(ErrorMessage = "Password is required.")]
+//        public string Password { get; set; }
+//        public string Address { get; set; }
+
+//    }
+//}
+
+using System.ComponentModel.DataAnnotations;
 
 namespace backend_dotnet8.Core.Dtos.Auth
 {
@@ -7,13 +27,15 @@ namespace backend_dotnet8.Core.Dtos.Auth
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        [Required(ErrorMessage = "Username is required.")]
+        [Required(ErrorMessage = "UserName is required")]
         public string UserName { get; set; }
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Password is required.")]
+        [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
         public string Address { get; set; }
 
     }
+
 }
+

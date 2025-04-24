@@ -79,7 +79,7 @@
   },
   {
     "ContainingType": "backend_dotnet8.Controllers.AuthController",
-    "Method": "Updaterole",
+    "Method": "UpdateRole",
     "RelativePath": "api/Auth/update-role",
     "HttpMethod": "POST",
     "IsController": true,
@@ -115,7 +115,7 @@
   },
   {
     "ContainingType": "backend_dotnet8.Controllers.AuthController",
-    "Method": "GetUserList",
+    "Method": "GetUsersList",
     "RelativePath": "api/Auth/users",
     "HttpMethod": "GET",
     "IsController": true,
@@ -201,7 +201,7 @@
   },
   {
     "ContainingType": "backend_dotnet8.Controllers.MessagesController",
-    "Method": "GetMessage",
+    "Method": "GetMessages",
     "RelativePath": "api/Messages",
     "HttpMethod": "GET",
     "IsController": true,
@@ -209,7 +209,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend_dotnet8.Core.Dtos.Messages.GetMessageDto, backend-dotnet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend_dotnet8.Core.Dtos.Message.GetMessageDto, backend-dotnet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -229,7 +229,7 @@
     "Parameters": [
       {
         "Name": "createMessageDto",
-        "Type": "backend_dotnet8.Core.Dtos.Messages.CreateMessageDto",
+        "Type": "backend_dotnet8.Core.Dtos.Message.CreateMessageDto",
         "IsRequired": true
       }
     ],
@@ -245,7 +245,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend_dotnet8.Core.Dtos.Messages.GetMessageDto, backend-dotnet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend_dotnet8.Core.Dtos.Message.GetMessageDto, backend-dotnet8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
